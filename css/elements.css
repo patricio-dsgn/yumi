@@ -78,14 +78,20 @@ hr{
 	height: 100px;
 }
 
-.btn-place      { background-image: url(../img/icon-menu-a-place.svg);}
-.btn-place:hover{ background-image: url(../img/icon-menu-a-place-hover.svg);}
+.btn-place      { background-image: url(../img/elements/icon-menu-a-place.svg);}
+.btn-place:hover{ background-image: url(../img/elements/icon-menu-a-place-hover.svg);}
 
-.btn-promo      { background-image: url(../img/icon-menu-a-promo.svg);}
-.btn-promo:hover{ background-image: url(../img/icon-menu-a-promo-hover.svg);}
+.btn-promo      { background-image: url(../img/elements/icon-menu-a-promo.svg);}
+.btn-promo:hover{ background-image: url(../img/elements/icon-menu-a-promo-hover.svg);}
 
-.btn-profile      { background-image: url(../img/icon-menu-a-profile.svg);}
-.btn-profile:hover{ background-image: url(../img/icon-menu-a-profile-hover.svg);}
+.btn-profile      { background-image: url(../img/elements/icon-menu-a-profile.svg);}
+.btn-profile:hover{ background-image: url(../img/elements/icon-menu-a-profile-hover.svg);}
+
+.btn-back1      { background-image: url(../img/elements/icon-menu-a-back1.svg);}
+.btn-back1:hover{ background-image: url(../img/elements/icon-menu-a-back1-hover.svg);}
+
+.btn-back2      { background-image: url(../img/elements/icon-menu-a-back2.svg);}
+.btn-back2:hover{ background-image: url(../img/elements/icon-menu-a-back2-hover.svg);}
 
 /* menu b - - - - - */
 
@@ -94,17 +100,17 @@ hr{
 	height: 100px;
 }
 
-.btn-walk      { background-image: url(../img/icon-menu-b-walk.svg);}
-.btn-walk:hover{ background-image: url(../img/icon-menu-b-walk-hover.svg);}
+.btn-walk      { background-image: url(../img/elements/icon-menu-b-walk.svg);}
+.btn-walk:hover{ background-image: url(../img/elements/icon-menu-b-walk-hover.svg);}
 
-.btn-taxi      { background-image: url(../img/icon-menu-b-taxi.svg);}
-.btn-taxi:hover{ background-image: url(../img/icon-menu-b-taxi-hover.svg);}
+.btn-taxi      { background-image: url(../img/elements/icon-menu-b-taxi.svg);}
+.btn-taxi:hover{ background-image: url(../img/elements/icon-menu-b-taxi-hover.svg);}
 
-.btn-car      { background-image: url(../img/icon-menu-b-car.svg);}
-.btn-car:hover{ background-image: url(../img/icon-menu-b-car-hover.svg);}
+.btn-car      { background-image: url(../img/elements/icon-menu-b-car.svg);}
+.btn-car:hover{ background-image: url(../img/elements/icon-menu-b-car-hover.svg);}
 
-.btn-bus      { background-image: url(../img/icon-menu-b-bus.svg);}
-.btn-bus:hover{ background-image: url(../img/icon-menu-b-bus-hover.svg);}
+.btn-bus      { background-image: url(../img/elements/icon-menu-b-bus.svg);}
+.btn-bus:hover{ background-image: url(../img/elements/icon-menu-b-bus-hover.svg);}
 
 /* menu social - - - - - */
 
@@ -113,59 +119,59 @@ hr{
 	height: 100px;
 }
 
-.btn-twitter      { background-image: url(../img/icon-social-twitter.svg);}
-.btn-twitter:hover{ background-image: url(../img/icon-social-twitter-hover.svg);}
+.btn-twitter      { background-image: url(../img/elements/icon-social-twitter.svg);}
+.btn-twitter:hover{ background-image: url(../img/elements/icon-social-twitter-hover.svg);}
 
-.btn-instagram      { background-image: url(../img/icon-social-instagram.svg);}
-.btn-instagram:hover{ background-image: url(../img/icon-social-instagram-hover.svg);}
+.btn-instagram      { background-image: url(../img/elements/icon-social-instagram.svg);}
+.btn-instagram:hover{ background-image: url(../img/elements/icon-social-instagram-hover.svg);}
 
-.btn-facebook      { background-image: url(../img/icon-social-facebook.svg);}
-.btn-facebook:hover{ background-image: url(../img/icon-social-facebook-hover.svg);}
+.btn-facebook      { background-image: url(../img/elements/icon-social-facebook.svg);}
+.btn-facebook:hover{ background-image: url(../img/elements/icon-social-facebook-hover.svg);}
 
 /* menu extras and icons - - - - - */
 
 .btn-news {
 	width: 100px;
 	height: 100px;
-	background-image: url(../img/icon-extra-news.svg);
+	background-image: url(../img/elements/icon-extra-news.svg);
 }
 
 .btn-news:hover{
-	background-image: url(../img/icon-extra-news-hover.svg);
+	background-image: url(../img/elements/icon-extra-news-hover.svg);
 }
 
 .btn-close{
 	width: 100px;
 	height: 100px;
-	background-image: url(../img/icon-extra-close.svg);
+	background-image: url(../img/elements/icon-extra-close.svg);
 }
 
 .btn-close:hover{
-	background-image: url(../img/icon-extra-close-hover.svg);
+	background-image: url(../img/elements/icon-extra-close-hover.svg);
 }
 
 .icon-star-stroke{
 	width: 100px;
 	height: 100px;
-	background-image: url(../img/icon-extra-star-stroke.svg);
+	background-image: url(../img/elements/icon-extra-star-stroke.svg);
 }
 
 .icon-star-fill{
 	width: 100px;
 	height: 100px;
-	background-image: url(../img/icon-extra-star-fill.svg);
+	background-image: url(../img/elements/icon-extra-star-fill.svg);
 }
 
 .icon-search{
 	width: 100px;
 	height: 100px;
-	background-image: url(../img/icon-extra-search.svg);
+	background-image: url(../img/elements/icon-extra-search.svg);
 }
 
 .icon-eye{
 	width: 100px;
 	height: 100px;
-	background-image: url(../img/icon-extra-eye.svg);
+	background-image: url(../img/elements/icon-extra-eye.svg);
 }
 
 
