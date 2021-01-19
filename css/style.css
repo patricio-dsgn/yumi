@@ -14,6 +14,7 @@
 	border:0;
 	/*font-size: 0;*/
 	transition: all 0.3s ease;
+
 }
 
 body{
@@ -25,6 +26,7 @@ body{
 	font-family: 'Nunito', sans-serif;
 	color: #2B294E;
 }
+
 
 h1{font-size: 40px;}
 h2{font-size: 20px;}
@@ -146,7 +148,6 @@ hr{
 	display: inline-block;
 	background-size: 100% 100%;
 	background-position: center center;
-	background-color: #96F2E6;
 
 }
 
@@ -259,6 +260,27 @@ hr{
 	background-image: url(../img/element/icon-extra-eye.svg);
 }
 
+
+
+
+
+/* - - - - - - - - - - - */
+
+.btn-slide{
+	position: relative;
+	display: inline;
+	width: 20px;
+	height: 20px;
+	margin: 20px;
+}
+
+.btn-twitter      { background-image: url(../img/element/icon-social-twitter.svg);}
+.btn-twitter:hover{ background-image: url(../img/element/icon-social-twitter-hover.svg);}
+
+/* - - - - - - - - - - - */
+
+
+
 img{
 	/*width: 100%;*/
 }
@@ -335,66 +357,59 @@ label.tag-1a{
 .wrap{
 	position: relative;
 	display: block;
-	border: 10px solid #f0f;
 }
 
 
 .menu-a{
-	background-color: #FA1F6F;
 }
 
 
 
 
-.block1{
+.area1{
 	position: relative;
 	display: block;
 	padding: 10px 100px;
-	background-color: #ffffff;
-	border: 5px solid #000;
 	text-align: center;
 	height: 600px;
 	overflow: hidden;
 }
 
 
-.block2{
+.area2{
 	position: relative;
 	display: block;
 	padding: 40px 50px;
 	background-color: #00A5BB;
-	border: 5px solid #000;
 	text-align: center;
 }
 
-.sub-block-1{
-	border: 1px solid #0f0;
+.block1{
 	display: inline-block;
 	position: relative;
 	vertical-align: middle;
 	margin: 100px 50px 0;
 }
 
-.sub-block-2{
-	border: 1px solid #f0f;
+.block2{
 	display: inline-block;
 	position: relative;
 	vertical-align: middle;
 	margin: 100px 50px 0;
 }
 
-.sub-block-1 p {
+.block1 p {
 	max-width: 300px;
 	margin-top: 30px;
 }
 
 
-.sub-block-2 .btn-1a {
+.block2 .btn-1a {
 	width: 110px;
 	margin: 30px 6px 0;
 }
 
-.sub-block-2 .logo-v1{
+.block2 .logo-v1{
 	display: block;
 	width: 250px;
 	height: 250px;
@@ -431,215 +446,3 @@ label.tag-1a{
 
 
 
-
-
-
-/* media queries */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* @media Media queries - - - - - - - - - - - - - - - - - - - - */
-
-.respo:before {z-index:1000;width:auto;bottom:5px;right:5px;position: fixed;padding: 5px;color:#000;font-size: 12px;font-weight: 700;transition: all 1s ease;opacity: 0.8;}
-.respo:before {content: "(none)";background: cyan;}
-
-/* 980px min - Large desktop - - - - - - - - - - */
-@media (min-width: 980px) {
-
-}
-
-/* 980px max - Large desktop - - - - - - - - - - */
-@media (max-width: 980px) {
-	.respo:before {content: "(max-width: 980px)";background:magenta;}
-
-	.page{
-		left: 5%;
-		margin-left: 0;
-		width: 90%;
-	}
-
-}
-
-/* 980px max - portrait */
-@media (max-width: 980px) and (orientation:portrait) {
-	.respo:before {content: "(max-width: 980px portrait)";transform: rotate(90deg); transform-origin: top right;}
-
-}
-
-/* 980px max - landscape */
-@media (max-width: 980px) and (orientation:landscape) {
-	.respo:before {content: "(max-width: 980px landscape)";transform: rotate(0deg);}
-
-}
-
-/* 768px max - Landscape phone to portrait tablet - - - - - - - - - - */
-@media (max-width: 768px) {
-	.respo:before {content: "(max-width: 768px)"; background: yellow;}
-
-	html {
-		font-size: 16px;
-	}
-
-	.illus{
-		display: block;
-		width: 100%;
-	}
-
-	.col_50{
-		display: block;
-		left: 0;
-		margin: 0 auto;
-		position: relative;
-		text-align: center;
-		width: 100%;
-	}
-
-	.col_50 p{
-		display: block;
-		left: 0;
-		margin: 0 auto;
-		position: relative;
-		text-align: center;
-	}
-
-	.three .vid{
-		height: 400px;
-	}
-
-	.list_one li{
-		margin: 10px auto;
-		text-align: center;
-	}
-
-	.logo_l{
-		left: 0;
-		margin-left: 0;
-		width: 100%;
-	}
-
-	.more{
-		height: 100px;
-		left: 10%;
-		margin-bottom: 50px;
-		margin-left: 0;
-		margin-top: 50px;
-		padding: 1%;
-		width: 80%;
-	}
-
-	.more a{
-		font-size: 32px;
-		font-weight: 700;
-		left: 50px;
-		top: 0;
-	}
-
-	.more a:hover{
-		font-size: 42px;
-		left: 10px;
-		top: 10px;
-	}
-
-}
-
-/* 768px max - portrait */
-@media (max-width: 768px) and (orientation:portrait) {
-	.respo:before {content: "(max-width: 768px portrait)"; transform: rotate(90deg); transform-origin: top right;}
-}
-
-/* 768px max - landscape */
-@media (max-width: 768px) and (orientation:landscape) {
-	.respo:before {content: "(max-width: 768px landscape)"; transform: rotate(0deg);}
-}
-
-
-
-
-
-
-
-/* 480px Landscape phones and down - - - - - - - - - - - - - - - - - - - - */
-@media (max-width: 480px) {
-	.respo:before { content: "(max-width: 480px)"; background: grey;}
-
-	html {
-		font-size: 18px;
-	}
-
-	.illus{
-		display: block;
-		height: auto;
-		text-align: left;
-		width: 100%;
-	}
-
-	.photo{
-		display: block;
-		height: auto;
-		position: relative;
-		width: 100%;
-	}
-
-	.photo a img{
-		display: block;
-		height: auto;
-		position: relative;
-		width: 100%;
-	}
-
-	.der .descrip,
-	.izq .descrip{
-		display: block;
-		height: auto;
-		left: 0;
-		margin-bottom: -30px;
-		margin: 0;
-		padding: 10px;
-		position: relative;
-		top: 0;
-		width: 100%;
-	}
-
-	.illus.der{
-		text-align: right;
-	}
-
-	.col_50{
-		width: 100%;
-
-	}
-
-	header .page{
-		padding-bottom: 200px;
-	}
-
-}
-
-/* 480px max - portrait */
-@media (max-width: 480px) and (orientation:portrait) {
-	.respo:before {content: "(max-width: 480px portrait)"; transform: rotate(90deg); transform-origin: top right;}
-}
-
-/* 480px max - landscape */
-@media (max-width: 480px) and (orientation:landscape) {
-	.respo:before {content: "(max-width: 480px landscape)";transform: rotate(0deg);}
-}
-
-/* END - - - - - - - - - - - - - - - - - - - - */

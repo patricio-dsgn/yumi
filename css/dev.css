@@ -1,0 +1,71 @@
+
+/*
+lines for visulisaichon
+
+*/
+
+.wrap{ border: 10px solid #777; }
+
+h1{box-shadow: 0px 0 0 5px #0009FF inset;}
+h2{box-shadow: 0px 0 0 5px #00EEFF inset;}
+h3{box-shadow: 0px 0 0 5px #00FF75 inset;}
+h4{box-shadow: 0px 0 0 5px #99FF30 inset;}
+h5{box-shadow: 0px 0 0 5px #FFB500 inset;}
+h6{box-shadow: 0px 0 0 5px #FF4A00 inset;}
+
+p{box-shadow: 0px 0 0 5px #0009FF inset;}
+a{}
+
+input{}
+
+.link-1{}
+
+
+.logo-v1{}
+.icon{
+	border: 5px solid #E3B;
+}
+
+.btn-place,
+.btn-promo,
+.btn-profile,
+.btn-back2,
+.btn-back1,
+
+.btn-walk,
+.btn-taxi,
+.btn-car,
+.btn-bus,
+.btn-social,
+
+.btn-twitter,
+.btn-instagram,
+.btn-facebook,
+
+.btn-news,
+.icon-star-stroke,
+.icon-star-fill,
+.icon-search,
+.icon-eye{ border: 10px solid #777;}
+
+img{}
+
+
+.form-1{}
+
+input.field-1a{}
+label.tag-1a{}
+.title-2{}
+
+.wrap{}
+.menu-a{}
+
+.area1{border: 10px solid #ddd;}
+.area2{border: 10px solid #34E;}
+
+.block1{border: 10px solid #ddd;}
+.block2{border: 10px solid #ddd;}
+
+.sub-block-2 .btn-1a {}
+.sub-block-2 .logo-v1{}
+
