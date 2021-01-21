@@ -85,7 +85,7 @@
 			</style>
 
 
-	<div class="bar"><div style="width:90%;">90%</div></div>
+	<div class="bar"><div style="width:80%;">80%</div></div>
 	<a class="page" href="./index.html">index.html</a>
 	<br>
 
@@ -93,28 +93,28 @@
 	<a class="page" href="./elements.html">elements.html</a>
 	<br>
 
-	<div class="bar"><div style="width:0%;">0%</div></div>
-	<a class="page isDisabled" href="./login.html">login.html</a>
+	<div class="bar"><div style="width:60%;">60%</div></div>
+	<a class="page" href="./login.html">login.html</a>
 	<br>
 
-	<div class="bar"><div style="width:0%;">0%</div></div>
-	<a class="page isDisabled" href="./register.html">register.html</a>
+	<div class="bar"><div style="width:10%;">10%</div></div>
+	<a class="page" href="./register.html">register.html</a>
 	<br>
 
-	<div class="bar"><div style="width:0%;">0%</div></div>
-	<a class="page isDisabled" href="./promo.html">promo.html</a>
+	<div class="bar"><div style="width:10%;">10%</div></div>
+	<a class="page" href="./promo.html">promo.html</a>
 	<br>
 
-	<div class="bar"><div style="width:0%;">0%</div></div>
-	<a class="page isDisabled" href="./profile.html">profile.html</a>
+	<div class="bar"><div style="width:90%;">90%</div></div>
+	<a class="page" href="./profile.html">profile.html</a>
 	<br>
 
-	<div class="bar"><div style="width:0%;">0%</div></div>
-	<a class="page isDisabled" href="./place.html">place.html</a>
+	<div class="bar"><div style="width:10%;">10%</div></div>
+	<a class="page" href="./place.html">place.html</a>
 	<br>
 
-	<div class="bar"><div style="width:0%;">0%</div></div>
-	<a class="page isDisabled" href="./map.html">map.html</a>
+	<div class="bar"><div style="width:80%;">80%</div></div>
+	<a class="page" href="./map.html">map.html</a>
 	<br>
 
 

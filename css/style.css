@@ -215,17 +215,18 @@ body.page{
 	background-position: center center;
 }
 
+#way-map  {background-image: url("../img/map/map.svg"); display: block;}
 #way-drive{background-image: url("../img/map/way1.svg");}
-#way-walk{background-image: url("../img/map/way2.svg");}
-#way-bus{background-image: url("../img/map/way3.svg");}
-#way-taxi{background-image: url("../img/map/way4.svg");}
+#way-walk {background-image: url("../img/map/way2.svg");}
+#way-bus  {background-image: url("../img/map/way3.svg");}
+#way-taxi {background-image: url("../img/map/way4.svg");}
 
 .show{
 	display: block;
 }
 
 .hide{
-	display: none;
+	display: none!important;
 }
 
 
@@ -236,15 +237,16 @@ body.page{
 #FF8226 naranja
 */
 
-.panel-search{
+#panel-compass{
 	position: relative;
 	display: inline-block;
+	max-width: 340px;
 	background-color: #00A5BB;
 	padding: 10px 2px 2px 2px;
 	border-radius: 0 22px 22px 0;
 }
 
-.panel-option{
+#panel-options{
 	position: relative;
 	display: block;
 	background-color: #ffffff;
@@ -252,7 +254,7 @@ body.page{
 	border-radius: 0 20px 20px 0;	
 }
 
-.panel-option hr{
+#panel-options hr{
 	position: relative;
 	display: block;
 	height: 1px;
@@ -350,3 +352,80 @@ body.page{
 
 
 
+
+#panel-results{
+	position: relative;
+	display: block;
+	width: auto;
+	height: auto;
+	border: 2px solid #000;
+	border-radius: 10px;	
+}
+
+
+
+
+.btn-close{
+	position: relative;
+	display: inline-block;
+	top: 0;
+	right: 0;
+	height: 250px;
+	vertical-align: top;
+	width: 25px;
+	padding: 0px;
+	background-color: rgba(255,0,0,0.4);
+	z-index: 400;
+	cursor: pointer;
+}
+
+.btn-close div{
+	position: relative;
+	display: block;
+	top: 0;
+	right: 0;
+	height: 100px;
+	width: 10px;
+	left: 7px;
+	background-color: #f00;
+	border-radius: 25px;
+}
+
+.btn-close:hover div{
+	height: 120px;
+	vertical-align: middle;
+}
+
+#panel-options-sub{
+	position: relative;
+	display: inline-block;
+	width: 90%;
+}
+
+#panel-search,
+#panel-options,
+#panel-options-sub{
+	border: 2px dashed #000;
+}
+
+.input-box{
+	padding: 20px;
+	border: 1px solid #000;
+}
+
+#panel-results{
+	position: relative;
+	display: inline-block;
+	height: auto;
+	width: 300px;
+	border: 2px solid #000;
+	border-radius: 10px;
+}
+
+
+#panel-search,
+#panel-options,
+#panel-options-sub,
+#panel-results{
+	transition: all 0s;
+}
