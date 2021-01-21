@@ -6,9 +6,10 @@
 	<title></title>
 	<link rel="stylesheet" href="./css/style.css">
 	<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,400;0,800;1,200;1,400;1,800&display=swap" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 
-<body class="page">
+<body class="full">
 	
 	<div class="respo"></div>
 	<div class="wrap">
@@ -21,9 +22,87 @@
 			</ul>
 		</div>
 	
-		<section class="foot-c">
-			<a class="link-1" href="">Términos de Servicio</a>
-		</section>
+		<div class="panel-search">
+			<input type="text">
+			<div class="panel-option">
+				<h3>A Quĳote Restaurant</h3>
+				<p>Desde <span>Ubicación Actual</span></p>
+				<hr>
+				<div class="panel-col-left">
+					<p>21<span>min</span></p>
+					<p>4.2<span>km</span>•<span>Cerca</span></p>
+					<p>Ruta rápida</p>
+				</div>
+				<div class="panel-col-right">
+					<a class="btn-go" href="">Ir</a>
+				</div>
+				<hr>
+				<button type="button" id="btn-drive" class="icon btn-b btn-drive"></button>
+				<button type="button" id="btn-walk"  class="icon btn-b btn-walk"></button>
+				<button type="button" id="btn-bus"   class="icon btn-b btn-bus"></button>
+				<button type="button" id="btn-taxi"  class="icon btn-b btn-taxi"></button>
+			</div>
+		</div>
+
+		<div id="way-drive" class="way hide"></div>
+		<div id="way-walk"  class="way hide"></div>
+		<div id="way-bus"   class="way hide"></div>
+		<div id="way-taxi"  class="way hide"></div>		
+<script>
+
+$(document).ready(function(){
+
+	function clear_btn() {
+		$("#btn-drive").removeClass("sel");
+		$("#btn-walk").removeClass("sel");
+		$("#btn-bus").removeClass("sel");
+		$("#btn-taxi").removeClass("sel");
+	}
+
+	function clear_way() {
+		$("#way-drive").removeClass("show");
+		$("#way-walk").removeClass("show");
+		$("#way-bus").removeClass("show");
+		$("#way-taxi").removeClass("show");
+	}
+
+	$("#btn-drive").click(function(){
+		clear_btn();
+		clear_way();
+		$("#way-drive").removeClass("hide");
+		$("#way-drive").addClass("show");
+		$("#btn-drive").addClass("sel");
+	});
+
+	$("#btn-walk").click(function(){
+		clear_btn();
+		clear_way();
+		$("#way-walk").removeClass("hide");
+		$("#way-walk").addClass("show");
+		$("#btn-walk").addClass("sel");
+	});
+
+	$("#btn-bus").click(function(){
+		clear_btn();
+		clear_way();
+		$("#way-bus").removeClass("hide");
+		$("#way-bus").addClass("show");
+		$("#btn-bus").addClass("sel");
+	});
+
+	$("#btn-taxi").click(function(){
+		clear_btn();
+		clear_way();
+		$("#way-taxi").removeClass("hide");
+		$("#way-taxi").addClass("show");
+		$("#btn-taxi").addClass("sel");
+	});
+
+});
+
+</script>
+
+
 		
 	</div>
 </body>

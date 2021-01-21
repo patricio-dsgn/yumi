@@ -201,6 +201,64 @@ body.page{
 	margin-left:-0px;
 }
 
+.way{
+	position: absolute;
+	display: none;
+	top: 0;
+	left: 0;
+	z-index: -1000;
+	width: auto;
+	height: 100%;
+	width: 100%;
+	border: 4px solid #000;
+	background-size: contain;
+	background-position: center center;
+}
+
+#way-drive{background-image: url("../img/map/way1.svg");}
+#way-walk{background-image: url("../img/map/way2.svg");}
+#way-bus{background-image: url("../img/map/way3.svg");}
+#way-taxi{background-image: url("../img/map/way4.svg");}
+
+.show{
+	display: block;
+}
+
+.hide{
+	display: none;
+}
+
+
+/*
+#2B294E morado
+#FA1F6F magenta
+#00A5BB cian
+#FF8226 naranja
+*/
+
+.panel-search{
+	position: relative;
+	display: inline-block;
+	background-color: #00A5BB;
+	padding: 10px 2px 2px 2px;
+	border-radius: 0 22px 22px 0;
+}
+
+.panel-option{
+	position: relative;
+	display: block;
+	background-color: #ffffff;
+	padding: 20px;
+	border-radius: 0 20px 20px 0;	
+}
+
+.panel-option hr{
+	position: relative;
+	display: block;
+	height: 1px;
+	background-color: #2B294E;
+	margin: 10px 0;
+}
 
 
 .link-a{
@@ -220,6 +278,10 @@ body.page{
 	width: 60px;
 	height: 60px;
 }
+.btn-b{
+	width: 60px;
+	height: 60px;
+}
 
 .btn-place      { background-image: url(../img/elements/icon-menu-a-place.svg);}
 .btn-place:hover{ background-image: url(../img/elements/icon-menu-a-place-hover.svg);}
@@ -229,3 +291,62 @@ body.page{
 
 .btn-profile      { background-image: url(../img/elements/icon-menu-a-profile.svg);}
 .btn-profile:hover{ background-image: url(../img/elements/icon-menu-a-profile-hover.svg);}
+
+
+
+
+.btn-drive      { background-image: url(../img/elements/icon-menu-b-drive.svg);}
+.btn-drive:hover{ background-image: url(../img/elements/icon-menu-b-drive-hover.svg);}
+
+.btn-walk      { background-image: url(../img/elements/icon-menu-b-walk.svg);}
+.btn-walk:hover{ background-image: url(../img/elements/icon-menu-b-walk-hover.svg);}
+
+.btn-bus      { background-image: url(../img/elements/icon-menu-b-bus.svg);}
+.btn-bus:hover{ background-image: url(../img/elements/icon-menu-b-bus-hover.svg);}
+
+.btn-taxi      { background-image: url(../img/elements/icon-menu-b-taxi.svg);}
+.btn-taxi:hover{ background-image: url(../img/elements/icon-menu-b-taxi-hover.svg);}
+
+
+.btn-go{
+	text-decoration: none;
+	position: relative;
+	display: inline-block;
+	background-color: #FA1F6F;
+	padding: 14px 18px;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 16px;
+	color: #fff;
+	border-radius: 10px;
+}
+
+.btn-go:hover{
+	transform: scale(1.1,1.1);
+}
+
+.panel-col-left{
+	display: inline-block;
+	vertical-align: middle;
+	width: 48%;
+	border: 1px solid #000;
+	text-align: left;
+}
+
+.panel-col-right{
+	display: inline-block;
+	vertical-align: middle;
+	width: 48%;
+	border: 1px solid #000;
+	text-align: right;
+}
+
+
+#btn-drive.sel { background-image: url(../img/elements/icon-menu-b-drive-hover.svg);}
+#btn-walk.sel  { background-image: url(../img/elements/icon-menu-b-walk-hover.svg);}
+#btn-bus.sel   { background-image: url(../img/elements/icon-menu-b-bus-hover.svg);}
+#btn-taxi.sel  { background-image: url(../img/elements/icon-menu-b-taxi-hover.svg);}
+
+
+
+
