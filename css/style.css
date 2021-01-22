@@ -429,3 +429,51 @@ body.page{
 #panel-results{
 	transition: all 0s;
 }
+
+
+#panel-search{
+	width: 100%;
+	background-image: url('../img/elements/icon-extra-search.svg');
+	background-color: #ffffff;
+	background-size: 22px 22px;
+	background-repeat: no-repeat;
+	background-position: 230px 10px; 
+	padding:8px;
+	font-size: 16px;
+	color: #FA1F6F;
+	border-radius: 10px;
+	border: none;
+}
+
+
+#panel-results{
+	margin-top: 10px;
+	width: 100%;
+	background-color: #ffffff;
+	font-size: 16px;
+	border-radius: 0 20px 20px 0;
+}
+
+#panel-results ul{
+	list-style: none;
+	padding: 0 20px;
+}
+
+#panel-results ul li{
+	font-size: 16px;
+	color: #00A5BB;
+}
+
+#panel-results ul li button{
+	font-size: 16px;
+	font-weight: bold;
+	color: #00A5BB;
+	background: none;
+	border: none; 
+	cursor: pointer;	
+}
+
+
+
+
+

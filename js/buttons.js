@@ -95,7 +95,7 @@ $(document).ready(function(){
 			$('#panel-results').append('\n<ul>');
 			for (var i = 0; i <= arr_places.length; i++) {
 				if (arr_places[i][0]==1) {
-					$('#panel-results').append(
+					$('#panel-results ul').append(
 						'\n\t<li>'
 						+'<button type="button" value="'
 						+arr_places[i][1]
@@ -105,7 +105,7 @@ $(document).ready(function(){
 						+'</li>'
 					);
 				}else if(arr_places[i][0]==0) {
-					$('#panel-results').append(
+					$('#panel-results ul').append(
 						'\n\t<li>'
 						+arr_places[i][2]
 						+'</li>'
